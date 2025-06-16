@@ -1,0 +1,78 @@
+/* Footer.module.css */
+
+/* Footer Section */
+.footerSection {
+  background: #333; /* Dark background */
+  color: white; /* White text for contrast */
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* Footer Content Container */
+.footerContent {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+/* Shared styles for all footer columns */
+.footerColumn {
+  flex: 1 1 250px;
+  min-width: 200px;
+}
+
+/* Footer Headings */
+.footerHeading {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+/* List of links */
+.footerList {
+  list-style: none;
+  padding: 0;
+}
+
+.footerList li {
+  margin-bottom: 10px;
+}
+
+.footerList li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footerList li a:hover {
+  color: #76cedf; /* Highlight color on hover */
+}
+
+/* Social Icons Container */
+.socialIcons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.socialIcons a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.socialIcons a:hover {
+  color: #76cedf;
+}
+
+/* Footer Bottom Section */
+.footerBottom {
+  border-top: 1px solid #444;
+  padding-top: 20px;
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #ccc;
+}
